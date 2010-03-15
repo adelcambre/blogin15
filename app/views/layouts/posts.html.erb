@@ -2,15 +2,22 @@
 <html>
 <head>
   <title>Posts: <%= controller.action_name %></title>
-  <%= stylesheet_link_tag 'scaffold' %>
-  <%= javascript_include_tag :defaults %>
+  <link rel="stylesheet" href="http://assets.engineyard.com/stylesheets/master.css" type="text/css" media="screen" />
   <%= csrf_meta_tag %>
 </head>
 <body>
+  <div id="container">
+    <div id="header">
+      <div id="branding">
+      </div>
+    </div>
 
-<p class="notice"><%= notice %></p>
+    <div class="content">
+      <p class="notice"><%= notice %></p>
 
-<%= yield %>
+      <%= yield %>
+    </div>
+  </div>
 
 </body>
 </html>
