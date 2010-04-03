@@ -11,8 +11,8 @@ class PostsController < ApplicationController
     respond_with(@post)
   end
 
-  def create
-    @post = Post.create(params[:post])
+  def create(post)
+    @post = Post.create(post)
     respond_with(@post, :location => :posts)
   end
 end
