@@ -8,7 +8,7 @@ gem "rails", "3.0.0.beta"
 # gem "rails", :git => "git://github.com/rails/rails.git"
 
 gem "mysql"
-gem "rails-action-args", :require => "rails_action_args"
+gem "rails-action-args"
 gem "ParseTree" # Need this for action args in 1.8
 gem "ruby2ruby"
 ## Bundle the gems you use:
