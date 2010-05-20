@@ -1,1 +1,1 @@
-run "echo 'release_path: #{release_path}' >> #{shared_path}/before_restart.rb_logs.log"
+echo 'before_restart' > #{shared_path}/before_restart.log

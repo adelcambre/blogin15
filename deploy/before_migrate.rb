@@ -1,1 +1,1 @@
-run "echo 'release_path: #{release_path}' >> #{shared_path}/before_migrate.rb_logs.log"
+echo 'before_migrate' > #{shared_path}/before_migrate.log
