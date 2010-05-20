@@ -1,1 +1,1 @@
-echo 'before_symlink' > #{shared_path}/before_symlink.log
+File.open(File.join(shared_path, 'before_symlink.log'), 'w') {|f| f.puts 'before_symlink' }

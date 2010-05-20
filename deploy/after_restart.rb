@@ -1,1 +1,1 @@
-echo 'after_restart' > #{shared_path}/after_restart.log
+File.open(File.join(shared_path, 'after_restart.log'), 'w') {|f| f.puts 'after_restart' }
