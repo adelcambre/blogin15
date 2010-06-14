@@ -1,4 +1,4 @@
-class TakesAwhile < ActiveRecord::Migration
+class TakesAwhile2 < ActiveRecord::Migration
   def self.up
     10.times do |i|
       puts "Sleeping #{i}"
