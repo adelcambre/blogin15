@@ -4,18 +4,6 @@
 
 class ::EY::Deploy::Configuration
   # no separate releases directories
-  def latest_release(*args)
-    current_path
-  end
-
-  def previous_release(*args)
-    current_path
-  end
-
-  def oldest_release(*args)
-    current_path
-  end
-
   def release_path(*args)
     current_path
   end
