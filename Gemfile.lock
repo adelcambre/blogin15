@@ -1,97 +1,97 @@
---- 
-dependencies: 
-  rails: 
-    group: 
-    - :default
-    version: = 3.0.0.beta
-  mysql: 
-    group: 
-    - :default
-    version: ">= 0"
-  ruby2ruby: 
-    group: 
-    - :default
-    version: ">= 0"
-  ParseTree: 
-    group: 
-    - :default
-    version: ">= 0"
-  rails-action-args: 
-    group: 
-    - :default
-    version: ">= 0"
-specs: 
-- rake: 
-    version: 0.8.7
-- ZenTest: 
-    version: 4.3.1
-- RubyInline: 
-    version: 3.8.4
-- sexp_processor: 
-    version: 3.0.4
-- ParseTree: 
-    version: 3.0.5
-- abstract: 
-    version: 1.0.0
-- builder: 
-    version: 2.1.2
-- i18n: 
-    version: 0.3.7
-- memcache-client: 
-    version: 1.7.8
-- tzinfo: 
-    version: 0.3.20
-- activesupport: 
-    version: 3.0.0.beta
-- activemodel: 
-    version: 3.0.0.beta
-- erubis: 
-    version: 2.6.5
-- rack: 
-    version: 1.1.0
-- rack-mount: 
-    version: 0.4.7
-- rack-test: 
-    version: 0.5.3
-- actionpack: 
-    version: 3.0.0.beta
-- mime-types: 
-    version: "1.16"
-- polyglot: 
-    version: 0.3.1
-- treetop: 
-    version: 1.4.5
-- mail: 
-    version: 2.1.5.3
-- text-hyphen: 
-    version: 1.0.0
-- text-format: 
-    version: 1.0.0
-- actionmailer: 
-    version: 3.0.0.beta
-- arel: 
-    version: 0.2.1
-- activerecord: 
-    version: 3.0.0.beta
-- activeresource: 
-    version: 3.0.0.beta
-- bundler: 
-    version: 0.9.25
-- mysql: 
-    version: 2.8.1
-- thor: 
-    version: 0.13.6
-- railties: 
-    version: 3.0.0.beta
-- rails: 
-    version: 3.0.0.beta
-- rails-action-args: 
-    version: 0.1.1
-- ruby_parser: 
-    version: 2.0.4
-- ruby2ruby: 
-    version: 1.2.4
-hash: 6bd8b859d538a606b27c51038cb07100114507ce
-sources: 
-- Rubygems: 
-    uri: http://gemcutter.org
+GEM
+  remote: http://gemcutter.org/
+  specs:
+    ParseTree (3.0.5)
+      RubyInline (>= 3.7.0)
+      sexp_processor (>= 3.0.0)
+    RubyInline (3.8.4)
+      ZenTest
+    ZenTest (4.3.3)
+    abstract (1.0.0)
+    actionmailer (3.0.0.beta)
+      actionpack (= 3.0.0.beta)
+      mail (~> 2.1.2)
+      text-format (~> 1.0.0)
+    actionpack (3.0.0.beta)
+      activemodel (= 3.0.0.beta)
+      activesupport (= 3.0.0.beta)
+      erubis (~> 2.6.5)
+      rack (~> 1.1.0)
+      rack-mount (~> 0.4.0)
+      rack-test (~> 0.5.0)
+    activemodel (3.0.0.beta)
+      activesupport (= 3.0.0.beta)
+    activerecord (3.0.0.beta)
+      activemodel (= 3.0.0.beta)
+      activesupport (= 3.0.0.beta)
+      arel (~> 0.2.0)
+    activeresource (3.0.0.beta)
+      activemodel (= 3.0.0.beta)
+      activesupport (= 3.0.0.beta)
+    activesupport (3.0.0.beta)
+      builder (~> 2.1.2)
+      i18n (~> 0.3.0)
+      memcache-client (~> 1.7.5)
+      tzinfo (~> 0.3.16)
+    arel (0.2.1)
+      activesupport (>= 3.0.0.beta)
+    builder (2.1.2)
+    bundler (1.0.0.beta.1)
+    erubis (2.6.5)
+      abstract (>= 1.0.0)
+    i18n (0.3.7)
+    mail (2.1.5.3)
+      activesupport (>= 2.3.4)
+      mime-types
+      treetop (>= 1.4.5)
+    memcache-client (1.7.8)
+    mime-types (1.16)
+    mysql (2.8.1)
+    mysql (2.8.1-x86-mingw32)
+    mysql (2.8.1-x86-mswin32)
+    polyglot (0.3.1)
+    rack (1.1.0)
+    rack-mount (0.4.7)
+      rack (>= 1.0.0)
+    rack-test (0.5.4)
+      rack (>= 1.0)
+    rails (3.0.0.beta)
+      actionmailer (= 3.0.0.beta)
+      actionpack (= 3.0.0.beta)
+      activerecord (= 3.0.0.beta)
+      activeresource (= 3.0.0.beta)
+      activesupport (= 3.0.0.beta)
+      bundler (>= 0.9.2)
+      railties (= 3.0.0.beta)
+    rails-action-args (0.1.1)
+      actionpack
+      activesupport
+    railties (3.0.0.beta)
+      actionpack (= 3.0.0.beta)
+      activesupport (= 3.0.0.beta)
+      rake (>= 0.8.3)
+      thor (~> 0.13)
+    rake (0.8.7)
+    ruby2ruby (1.2.4)
+      ruby_parser (~> 2.0)
+      sexp_processor (~> 3.0)
+    ruby_parser (2.0.4)
+      sexp_processor (~> 3.0)
+    sexp_processor (3.0.4)
+    text-format (1.0.0)
+      text-hyphen (~> 1.0.0)
+    text-hyphen (1.0.0)
+    thor (0.13.6)
+    treetop (1.4.8)
+      polyglot (>= 0.3.1)
+    tzinfo (0.3.22)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ParseTree
+  mysql
+  rails (= 3.0.0.beta)
+  rails-action-args
+  ruby2ruby
