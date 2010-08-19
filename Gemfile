@@ -11,6 +11,7 @@ gem "mysql"
 gem "rails-action-args"
 gem "ParseTree" # Need this for action args in 1.8
 gem "ruby2ruby"
+gem "unicorn"
 ## Bundle the gems you use:
 # gem "bj"
 # gem "hpricot", "0.6"
